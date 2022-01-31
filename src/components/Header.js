@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="header">
         <nav className="nav">
-          <h1 className="title">¡Cuidado con Grogu!</h1>
+            <Link to="/" className="title">¡Cuidado con Grogu!</Link>
             <Link to="/rules">Reglas del juego</Link>
             <Link to="/pieces">Fichas</Link>
             <Link to="/game">Juego</Link>

@@ -40,3 +40,57 @@
             border-radius: 25px;
             background-color: transparent;
         }
+
+.articleRules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.divGame{
+    display: flex;
+    justify-content: center;
+}
+.sectionMoveGrogu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 247, 255);
+    width: 70vw;
+    height: 100vh;
+}
+.sectionElements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 210, 255);
+    width: 30vw;
+    height: 100vh;
+}
+.tableStyles {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        border: black 2px solid;
+    }
+.groguImg {
+    width: 90px;
+}
+.divContentImg {
+    display: flex;
+}
+    .imgElements {
+        width: 100px;
+    }
