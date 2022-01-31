@@ -4,31 +4,10 @@ import Frog from "../images/frog.png";
 import Egg from "../images/egg.png";
 
 const Game = () => {
-    const getRandomNumber = (max) => {
-        return Math.ceil(Math.random() * max);
-    }
-
-    const randomSelection = () => {
-        const randomNum = getRandomNumber(4);
-
-        let computerSelection;
-
-        if(randomNum < 2) {
-            computerSelection = 'groot';
-        } else if(randomNum >= 5) {
-            computerSelection = 'cookies';
-        } else if(randomNum >= 8) {
-            computerSelection = 'eggs';
-        } else {
-            computerSelection = 'frogs';
-        }
-        return computerSelection;
-    }
 
     const cookies = [1,2,3];
     const frogs = [1,2,3];
     const eggs = [1,2,3];
-
 
     return (
         <>

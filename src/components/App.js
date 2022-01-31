@@ -27,19 +27,19 @@ function App() {
 
     if(randomNum === 1) {
       computerSelection = 'cookies';
-      setCookies(-1);
+      setCookies(cookies-1);
     } 
     else if(randomNum === 2) {
       computerSelection = 'grogu';
-      setGrogu(+1);
+      setGrogu(grogu+1);
     } 
     else if(randomNum === 3) {
       computerSelection = 'frogs';
-      setFrogs(-1);
+      setFrogs(frogs-1);
     }
     else {
       computerSelection = 'eggs';
-      setEggs(-1);
+      setEggs(eggs-1);
     }
     return computerSelection;
   }
