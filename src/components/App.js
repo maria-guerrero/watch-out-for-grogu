@@ -22,20 +22,24 @@ function App() {
 
   // Función donde elegimos la elección del pc según el número aleatorio
   const numberComputer = () => {
-    const randomNum = getRandomNumber(10);
+    const randomNum = getRandomNumber(4);
     let computerSelection;
 
-    if(randomNum < 3) {
+    if(randomNum === 1) {
+      computerSelection = 'cookies';
+      setCookies(-1);
+    } 
+    else if(randomNum === 2) {
       computerSelection = 'grogu';
+      setGrogu(+1);
     } 
-    else if(randomNum >= 4) {
-      computerSelection = 'cookies'
-    } 
-    else if(randomNum >= 7) {
-      computerSelection = 'eggs';
+    else if(randomNum === 3) {
+      computerSelection = 'frogs';
+      setFrogs(-1);
     }
     else {
-      computerSelection = 'frogs';
+      computerSelection = 'eggs';
+      setEggs(-1);
     }
     return computerSelection;
   }
@@ -49,7 +53,7 @@ function App() {
           <Route index element={<Main/>} />
           <Route path="rules" element={<Rules/>} />
           <Route path="pieces" element={<Pieces/>} />
-          <Route path="game" element={<Game grogu={grogu} />} />
+          <Route path="game" element={<Game/>} />
         </Route>
       </Routes>  
 

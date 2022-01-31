@@ -2,7 +2,7 @@ import Grogu from '../images/grogu.png';
 
 const Card = () => {
     return (
-        <div className="card">
+        <div value="grogu" className="card">
             <img className="groguImg" src={Grogu} alt="Grogu" />
         </div>
     )

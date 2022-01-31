@@ -3,7 +3,7 @@ import Cookie from "../images/cookie.png";
 import Frog from "../images/frog.png";
 import Egg from "../images/egg.png";
 
-const Game = (props) => {
+const Game = () => {
     const getRandomNumber = (max) => {
         return Math.ceil(Math.random() * max);
     }
@@ -40,7 +40,7 @@ const Game = (props) => {
             <div className="divElements">
                 <button className="buttonPlay">Dado</button>
                 
-                <div className="divContentImg">                   
+                <div value="cookies" className="divContentImg">                   
                     {cookies.map((cookie) => {
                         return (
                             <img className="imgElements" src={Cookie} alt="cookie" />
@@ -48,7 +48,7 @@ const Game = (props) => {
                     })}
                 </div>
 
-                <div className="divContentImg">
+                <div value="frogs" className="divContentImg">
                     {frogs.map((frog) => {
                         return (
                             <img className="imgElements" src={Frog} alt="frog" />
@@ -56,7 +56,7 @@ const Game = (props) => {
                     })}
                 </div>
 
-                <div className="divContentImg">
+                <div value="eggs" className="divContentImg">
                     {eggs.map((egg) => {
                         return (
                             <img className="imgElements" src={Egg} alt="egg" />
