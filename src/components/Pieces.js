@@ -2,7 +2,7 @@
 const Pieces = () => {
     return(
         <>
-        <ul>
+        <ul className="pieces">
             <li>Ficha de zona de carga (x6)</li>
             <li>Ficha de armario (x1)</li>
             <li>Ficha de recipiente (x3)</li>

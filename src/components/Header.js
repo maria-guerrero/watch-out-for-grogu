@@ -5,9 +5,9 @@ const Header = () => {
         <header className="header">
         <nav className="nav">
             <Link to="/" className="title">¡Cuidado con Grogu!</Link>
-            <Link to="/rules">Reglas del juego</Link>
-            <Link to="/pieces">Fichas</Link>
-            <Link to="/game">Juego</Link>
+            <Link to="/rules" className="textHeader">Reglas del juego</Link>
+            <Link to="/pieces" className="textHeader">Fichas</Link>
+            <Link to="/game" className="textHeader">Juego</Link>
         </nav>
       </header>
     )
