@@ -44,7 +44,7 @@ function App() {
     else {
       computerSelection = 'eggs';
       setEggs(eggs - 1);
-      setTextResult('¡Uy, que pocos huevos ya!')
+      setTextResult('¡Uy, que pocos huevos de rana quedan!')
     }
     return computerSelection;
   }
