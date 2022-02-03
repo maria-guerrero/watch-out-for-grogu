@@ -27,19 +27,20 @@ function App() {
 
     if(randomNum === 1) {
       computerSelection = 'cookies';
-      setCookies(cookies-1);
+      setCookies(cookies - 1);
+      
     } 
     else if(randomNum === 2) {
       computerSelection = 'grogu';
-      setGrogu(grogu+1);
+      setGrogu(grogu + 1);
     } 
     else if(randomNum === 3) {
       computerSelection = 'frogs';
-      setFrogs(frogs-1);
+      setFrogs(frogs - 1);
     }
     else {
       computerSelection = 'eggs';
-      setEggs(eggs-1);
+      setEggs(eggs - 1);
     }
     return computerSelection;
   }
@@ -53,7 +54,7 @@ function App() {
           <Route index element={<Main/>} />
           <Route path="rules" element={<Rules/>} />
           <Route path="pieces" element={<Pieces/>} />
-          <Route path="game" element={<Game/>} />
+          <Route path="game" element={<Game eggs={eggs} frogs={frogs} grogu={grogu} cookies={cookies} numberComputer={numberComputer} />} />
         </Route>
       </Routes>  
 
