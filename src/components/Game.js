@@ -1,7 +1,7 @@
 import Table from "./Table";
-import Cookie from "../images/cookie.png";
-import Frog from "../images/frog.png";
-import Egg from "../images/egg.png";
+import cookieImg from "../images/cookie.png";
+import frogImg from "../images/frog.png";
+import eggImg from "../images/egg.png";
 
 const Game = (props) => {
 
@@ -20,21 +20,21 @@ const Game = (props) => {
           <div className="divElements">
 
             <div value="cookies" className="divContentImg">
-              <img className="imgElements js-cookie" src={Cookie} alt="cookie" />
+              <img className="imgElements js-cookie" src={cookieImg} alt="cookie" />
               <p className="textQuantityElements">
                 Galletas azules: {props.cookies}
               </p>
             </div>
 
             <div value="frogs" className="divContentImg">
-              <img className="imgElements js-frog" src={Frog} alt="frog" />
+              <img className="imgElements js-frog" src={frogImg} alt="frog" />
               <p className="textQuantityElements">
                 Ranas: {props.frogs}
               </p>
             </div>
 
             <div value="eggs" className="divContentImg">
-              <img className="imgElements" src={Egg} alt="egg" />
+              <img className="imgElements" src={eggImg} alt="egg" />
               <p className="textQuantityElements">
                 Huevos de rana: {props.eggs}
               </p>

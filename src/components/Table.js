@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Dice from '../images/dice.png';
+import diceImg from '../images/dice.png';
 
 const Table = (props) => {
   const cards = [1, 2, 3, 4, 5, 6, 7];
@@ -8,7 +8,7 @@ const Table = (props) => {
     <>
     <section>
       <div className="divDiceGroguPosition">
-        <img src={Dice} type="button" alt="dice" onClick={props.numberComputer} className="buttonDice" />
+        <img src={diceImg} type="button" alt="dice" onClick={props.numberComputer} className="buttonDice" />
         <p className="textResult">{props.textResult}</p>
         <p className="textQuantityElements">Grogu avanza a la posición: {props.grogu}</p>
       </div>
