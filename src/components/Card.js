@@ -4,7 +4,7 @@ const Card = () => {
 
     return (
         <div value="grogu" className="card">
-            <img className="groguImg" src={Grogu} alt="Grogu" />
+            <img className="groguImg js-imgGrogu" src={Grogu} alt="Grogu" />
         </div>
     )
 }

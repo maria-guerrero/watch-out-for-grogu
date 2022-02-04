@@ -21,6 +21,10 @@
         color: rgb(255, 255, 255);
         filter: drop-shadow(0px 0px 7px rgba(255, 255, 253, 0.952));
         text-decoration: none;
+        &:hover {
+            transform: scale(1.04);
+            transition: transform ease 0.1s;
+        }
     }
     .textHeader {
         font-family: 'Roboto Mono', monospace;
@@ -28,4 +32,7 @@
         color: white;
         font-size: 20px;
         text-decoration: none;
+        &:hover {
+            color: turquoise;
+        }
     }
