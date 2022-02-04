@@ -22,21 +22,21 @@ const Game = (props) => {
             <div value="cookies" className="divContentImg">
               <img className="imgElements js-cookie" src={Cookie} alt="cookie" />
               <p className="textQuantityElements">
-                Cantidad de cookies: {props.cookies}
+                Galletas azules: {props.cookies}
               </p>
             </div>
 
             <div value="frogs" className="divContentImg">
               <img className="imgElements js-frog" src={Frog} alt="frog" />
               <p className="textQuantityElements">
-                Cantidad de ranas: {props.frogs}
+                Ranas: {props.frogs}
               </p>
             </div>
 
             <div value="eggs" className="divContentImg">
               <img className="imgElements" src={Egg} alt="egg" />
               <p className="textQuantityElements">
-                Cantidad de huevos: {props.eggs}
+                Huevos de rana: {props.eggs}
               </p>
             </div>
 

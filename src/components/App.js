@@ -16,6 +16,8 @@ function App() {
   const [eggs, setEggs] = useState(3);
   const [textResult, setTextResult] = useState('');
 
+  const totalResultUser = cookies + eggs + frogs;
+
   // Función que generará un número aleatorio
   const getRandomNumber = (max) => {
     return Math.ceil(Math.random() * max);
@@ -79,6 +81,9 @@ function App() {
         setEggs(eggs + 0);
         setTextResult('¡No hay más huevos!');
       }
+      if(totalResultUser <= 0) {
+        setTextResult('¡Has ganado!');
+      } 
     }
     return computerSelection;
   }

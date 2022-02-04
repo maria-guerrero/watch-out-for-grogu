@@ -8,7 +8,7 @@ const Table = (props) => {
     <>
     <section>
       <div className="divDiceGroguPosition">
-        <img src={Dice} alt="" onClick={props.numberComputer} className="buttonDice" />
+        <img src={Dice} type="button" alt="dice" onClick={props.numberComputer} className="buttonDice" />
         <p className="textResult">{props.textResult}</p>
         <p className="textQuantityElements">Grogu avanza a la posición: {props.grogu}</p>
       </div>
