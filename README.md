@@ -1,3 +1,5 @@
+![TheChildOnSorgan](https://user-images.githubusercontent.com/93329410/152515626-6d60f274-3f0a-4ac5-a6e3-3601b5c48946.jpg)
+
 <h1>¡Cuidado con Grogu!</h1>
 
 <h3>La prueba técnica consistirá en crear una aplicación web en React que simule el comportamiento del juego. </h3>
