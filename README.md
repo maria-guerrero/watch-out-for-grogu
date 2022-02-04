@@ -1,7 +1,6 @@
 <h1>¡Cuidado con Grogu!</h1>
 
 <h3>La prueba técnica consistirá en crear una aplicación web en React que simule el comportamiento del juego. </h3>
-![TheChildOnSorgan](https://user-images.githubusercontent.com/93329410/152514944-bcf18b3c-24be-47ee-b953-7d478ad5f81c.jpg)
 
 <h2>🌌Parte 0: Crear una aplicación React</h2>
   <p>Para empezar hay que crear una aplicación React para empezar el desarrollo de la prueba técnica. Teniendo instalado node en el ordenador.</p>
