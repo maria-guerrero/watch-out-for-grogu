@@ -1,6 +1,6 @@
 import "../styles/App.scss";
 import { useState, useEffect } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -93,7 +93,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/">
+        <Route path="/" >
           <Route index element={<Main/>} />
           <Route path="rules" element={<Rules/>} />
           <Route path="pieces" element={<Pieces/>} />
